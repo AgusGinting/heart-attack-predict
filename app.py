@@ -16,7 +16,7 @@ thalachh = st.number_input("Max Heart Rate Achieved")
 exng = st.selectbox("Exercise Induced Angina (1 = yes, 0 = no)",[0,1])
 oldpeak = st.number_input("oldpeak : ST depression induced by exercise relative to rest (in mm, achieved by subtracting the lowest ST segment points during exercise and rest)")
 slp = st.selectbox("slope : the slope of the peak exercise ST segment, ST-T abnormalities are considered to be a crucial indicator for identifying presence of ischaemia -- Value 1: upsloping -- Value 2: flat -- Value 3: downsloping",[1,2,3])
-caa = st.selectboxt("ca : number of major vessels (0-3) colored by fluoroscopy. Major cardial vessels are as goes: aorta, superior vena cava, inferior vena cava, pulmonary artery (oxygen-poor blood --> lungs), pulmonary veins (oxygen-rich blood --> heart), and coronary arteries (supplies blood to heart tissue)",[0,1,2,3])
+caa = st.selectbox("ca : number of major vessels (0-3) colored by fluoroscopy. Major cardial vessels are as goes: aorta, superior vena cava, inferior vena cava, pulmonary artery (oxygen-poor blood --> lungs), pulmonary veins (oxygen-rich blood --> heart), and coronary arteries (supplies blood to heart tissue)",[0,1,2,3])
 thall = st.selectbox("thal : 0 = normal; 1 = fixed defect (heart tissue can't absorb thallium both under stress and in rest); 2 = reversible defect (heart tissue is unable to absorb thallium only under the exercise portion of the test) ",[0,1,2])
 
 btn = st.button("predict")
